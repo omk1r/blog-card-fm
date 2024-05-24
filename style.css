@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree";
+}
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Figtree, Arial, Helvetica, sans-serif;
+}
+.container {
+  max-width: 375px;
+  background-color: hsl(0, 0%, 100%);
+  border: 2px solid grey;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: 8px 8px hsl(0, 0%, 7%);
+}
+.container:hover {
+  box-shadow: 15px 15px hsl(0, 0%, 7%);
+}
+.image img {
+  width: 100%;
+  border-radius: 10px;
+}
+.content {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#learning {
+  height: 30px;
+  width: 80px;
+  background-color: hsl(47, 88%, 63%);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+#publish {
+  font-weight: 600;
+  font-size: 0.9em;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+#heading {
+  font-weight: 800;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#heading:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+#description {
+  color: hsl(0, 0%, 50%);
+  font-weight: 500;
+  line-height: 1.4em;
+}
+footer {
+  display: flex;
+  /* justify-content: flex-start; */
+  margin-top: 15px;
+  /* margin-bottom: 5px; */
+  text-align: center;
+  align-items: center;
+}
+footer img {
+  width: 2em;
+}
+#footer-text {
+  margin-left: 10px;
+  font-weight: 800;
+  font-size: 0.9em;
+}
